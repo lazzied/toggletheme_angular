@@ -9,8 +9,7 @@ import {
     NbInputModule,
     NbButtonModule,
     NbLayoutModule,
-    NbThemeModule,
-    NbThemeModule.forRoot({ name: 'default' }),
+    NbThemeModule
   ],
   exports: [
     NbCardModule,
